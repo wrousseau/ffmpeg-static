@@ -142,7 +142,7 @@ const releaseName = (
 )
 const arch = process.env.npm_config_arch || os.arch()
 const platform = process.env.npm_config_platform || os.platform()
-const downloadUrl = `https://github.com/eugeneware/ffmpeg-static/releases/download/${release}/${platform}-${arch}`
+const downloadUrl = `https://github.com/wrousseau/ffmpeg-static/releases/download/${release}/${platform}-${arch}`
 const readmeUrl = `${downloadUrl}.README`
 const licenseUrl = `${downloadUrl}.LICENSE`
 
